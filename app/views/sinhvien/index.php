@@ -28,7 +28,9 @@
                 <td><?= htmlspecialchars($sv['HoTen']) ?></td>
                 <td><?= htmlspecialchars($sv['GioiTinh']) ?></td>
                 <td><?= htmlspecialchars($sv['NgaySinh']) ?></td>
-                <td><img src="<?= htmlspecialchars($sv['Hinh']) ?>" class="img-thumbnail" width="50"></td>
+                <!-- <td><img src="<?= htmlspecialchars($sv['Hinh']) ?>" class="img-thumbnail" width="50"></td> -->
+                <td><img src="/StudentManagement/public/uploads/<?= htmlspecialchars($sv['Hinh']) ?>" class="img-thumbnail" alt="Hình SV" width="50"></td>
+
                 
                 <td><?= htmlspecialchars($sv['MaNganh']) ?></td>
                 <td>
